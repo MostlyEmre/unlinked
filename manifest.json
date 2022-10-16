@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+
+  "name": "UnLinked",
+  "version": "0.1.0",
+  "description": "😾 Opinionated LinkedIn extension.",
+
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://*.linkedin.com/*", "http://*.linkedin.com/*"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icon128.png"
+  }
+}

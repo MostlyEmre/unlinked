@@ -1,0 +1,32 @@
+/* Hide images */
+.feed-shared-document__container,
+.feed-shared-celebration,
+.feed-shared-linkedin-video,
+.feed-shared-article__link-container,
+.feed-shared-external-video__container,
+.feed-shared-image,
+/* new */
+.feed-shared-update-v2__content {
+  display: none !important;
+}
+
+.ad-banner-container {
+  display: none !important;
+}
+
+.news-module {
+  display: none !important;
+}
+
+/* Social Proof */
+
+.social-details-social-counts__reactions {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Be the first one to comment on ... */
+
+.social-details-first-prompt-block {
+  display: none !important;
+}
