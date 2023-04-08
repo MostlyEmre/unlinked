@@ -6,7 +6,9 @@
 .feed-shared-external-video__container,
 .feed-shared-image,
 /* new */
-.feed-shared-update-v2__content {
+.feed-shared-update-v2__content,
+/* new reshared images */
+.update-components-image {
   display: none !important;
 }
 
